@@ -1,0 +1,105 @@
+.about-us {
+  margin: 10px;
+  padding: 40px;
+  background-image: url('./logobg.png');
+  background-size: cover; /* Ensure background covers the entire container */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Needed to position the overlay */
+  z-index: 1;
+}
+
+/* Overlay for better text readability */
+.about-us::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: -1; /* Ensure the overlay is behind the text */
+  border-radius: 8px; /* Match border-radius with the container */
+}
+
+/* Heading styles */
+.about-us h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Paragraph styles */
+.about-us p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f9f9f9;
+  margin-bottom: 20px;
+}
+
+.about-us p:last-child {
+  margin-bottom: 0;
+}
+.go-back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ee9632;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.go-back-button:hover {
+  background-color: #45a049;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .about-us {
+    padding: 30px; /* Adjust padding for larger tablets or smaller screens */
+  }
+
+  .about-us h2 {
+    font-size: 1.8rem; /* Slightly smaller font size for tablets */
+  }
+
+  .about-us p {
+    font-size: 1rem; /* Adjust font size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .about-us h2 {
+    font-size: 1.6rem; /* Further reduce font size for smaller screens */
+  }
+
+  .about-us p {
+    font-size: 0.9rem; /* Smaller font size for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us {
+    padding: 15px; /* Further reduce padding for very small screens */
+    margin: 5px; /* Adjust margin for very small screens */
+  }
+
+  .about-us h2 {
+    font-size: 1.4rem; /* Further reduce font size for very small screens */
+  }
+
+  .about-us p {
+    font-size: 0.8rem; /* Further reduce font size for very small screens */
+  }
+  
+}

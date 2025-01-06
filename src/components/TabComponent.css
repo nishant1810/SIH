@@ -1,0 +1,24 @@
+/* TabComponent.css */
+.tabContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .tabButton {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .tabButton.active {
+    background-color: #FFBF78; /* Active tab color */
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .tabContent {
+    text-align: center;
+    margin-top: 20px;
+  }
+  

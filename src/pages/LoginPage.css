@@ -1,0 +1,99 @@
+/* Full-page container to position the form */
+.page-container {
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Move down to the center */
+  left: 50%; /* Move to the right to the center */
+  transform: translate(-50%, -50%); /* Centering adjustment */
+  text-align: center; /* Center text alignment */
+  background-color: transparent; /* Optional background for the page */
+}
+
+/* Form container styling */
+.form-container {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%; /* Make it responsive */
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styling */
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+/* Role selection styling */
+.role-selection {
+  display: flex;
+  justify-content: center; /* Center align the radio buttons */
+  margin-bottom: 15px; /* Space between role selection and form */
+}
+
+.role-selection label {
+  margin: 0 10px; /* Spacing between labels */
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Input field specific styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Checkbox container styling */
+.checkbox-container {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin: 10px 0; /* Add space above and below the checkbox */
+}
+
+/* Adjust text size for the label and add space */
+.checkbox-container label {
+  font-size: 12px; /* Set normal text size for the label */
+  color: white; /* Optional: Keep the text color white */
+  margin-left: 5px; /* Add space between checkbox and label */
+}
+
+/* Button styling */
+.sign-up-button {
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Added font size for button */
+}
+
+.sign-up-button:hover {
+  background: darkgreen;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 576px) {
+  .form-container {
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+
+  .sign-up-button {
+    padding: 8px; /* Adjust button padding */
+    font-size: 14px; /* Adjust font size */
+  }
+}

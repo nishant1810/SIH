@@ -1,0 +1,68 @@
+/* Page layout and general styling */
+.statesUTsPage {
+    text-align: center;
+    padding: 20px;
+    background-color:transparent; /* Match background with ministries page */
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* Grid container for the state/UT cards */
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual state/UT card styling */
+.stateCard {
+    background-color: #1e1e1e; /* Card background color */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover effect for cards */
+.stateCard:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: #333; /* Darker background on hover */
+    cursor: pointer;
+}
+
+/* Heading inside each state/UT card */
+.stateCard h2 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #e6e6e6;
+}
+
+/* Text inside the card for state/UT and central counts */
+.stateCard p {
+    font-size: 1rem;
+    margin: 0;
+    color: #9ad3bc; /* Light green for counts */
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .stateCard {
+        padding: 15px; /* Reduced padding on smaller screens */
+    }
+
+    .stateCard h2 {
+        font-size: 1rem; /* Smaller font size for heading */
+    }
+
+    .stateCard p {
+        font-size: 0.9rem; /* Smaller font size for counts */
+    }
+}

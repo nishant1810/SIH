@@ -1,0 +1,267 @@
+/* Container styling */
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: black;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Progress bar styling */
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.progress-step {
+  width: 16%;
+  text-align: center;
+  position: relative;
+}
+
+.progress-step .check-mark {
+  font-size: 1.2em;
+  color: #bbb;
+}
+
+.progress-step.active .check-mark {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.form-step {
+  display: flex;
+  flex-direction: column;
+}
+
+.gender-selection,
+.age-selection,
+.form-group,
+.radio-group,
+.employment-status-selection,
+.category-options,
+.options {
+  margin-bottom: 20px;
+}
+
+.gender-selection button,
+.employment-status-selection button,
+.category-options button,
+.options button {
+  margin-right: 10px;
+  padding: 10px 80px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: black;
+}
+
+.gender-selection button.active,
+.employment-status-selection button.active,
+.category-options button.active,
+.options button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.gender-selection button:hover,
+.employment-status-selection button:hover,
+.category-options button:hover,
+.options button:hover {
+  background-color: #ddd;
+}
+
+.age-selection select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.age-selection span {
+  margin-left: 15px;
+  color: white;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+/* Employment Status Section - Vertical Alignment */
+.employment-status-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.employment-status-selection button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: black;
+  width: 100%; /* Adjust to full width */
+}
+
+.employment-status-selection button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.employment-status-selection button:hover {
+  background-color: #ddd;
+}
+
+/* Category Options - Vertical Alignment */
+.category-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-options button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  color: black;
+  width: 100%; /* Adjust to full width */
+}
+
+.category-options button.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.category-options button:hover {
+  background-color: #ddd;
+}
+
+/* Buttons styling */
+.previous-button,
+.next-button {
+  display: inline-block;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.next-button,
+.previous-button,
+.submit-button,
+.reset-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.previous-button {
+  background-color: #f44336;
+}
+
+.reset-button {
+  background-color: red;
+  color: #fff;
+}
+
+.first-button {
+  display: flex;
+  justify-content: end;
+}
+
+.next-button:hover,
+.previous-button:hover,
+.submit-button:hover,
+.reset-button:hover {
+  opacity: 0.9;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Reset section styling */
+.reset-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .progress-bar {
+    flex-direction: column;
+  }
+
+  .progress-step {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .gender-selection button,
+  .employment-status-selection button,
+  .category-options button,
+  .options button {
+    padding: 10px;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .age-selection select {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .form-buttons {
+    flex-direction: column;
+  }
+
+  .next-button,
+  .previous-button,
+  .submit-button,
+  .reset-button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .progress-bar {
+    flex-direction: column;
+  }
+
+  .progress-step {
+    font-size: 1em;
+  }
+}

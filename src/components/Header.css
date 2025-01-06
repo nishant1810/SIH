@@ -1,0 +1,171 @@
+.header {
+  width: 100%;
+  background-color: transparent; /* Transparent by default */
+  padding: 0 20px; /* Adjusted padding for general use */
+  position: fixed;
+  top: 0;
+  left: 0; /* Ensure the header starts at the left edge */
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Ensure no overflow */
+  box-sizing: border-box; /* Include padding in width calculations */
+  transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+.header.scrolled {
+  background-color:rgb(37, 36, 36); /* Blue background on scroll */
+}
+
+/* Header Container Styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping in case of smaller screens */
+  max-width: 1500px; /* Restricts content to a max width */
+  margin: 0 auto; /* Center the container */
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding in width calculations */
+  padding: 0; /* Remove padding to prevent unnecessary shifting */
+}
+
+/* Logo Styles */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.right-logo {
+  width: 200px; /* Adjusted logo size */
+}
+
+/* Centered Search Bar Styles */
+.search-bar-container {
+  flex: 1; /* Take up available space */
+  display: flex;
+  justify-content: center; /* Center the search bar */
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-input {
+  padding: 8px 35px 8px 15px; /* Adjusted padding */
+  border-radius: 8px; /* Adjusted border-radius */
+  border: 1px solid #ccc;
+  font-size: 14px; /* Slightly smaller font size */
+  width: 250px; /* Adjusted width */
+  background-color: #333;
+  color: #fff;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Adjusted position */
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+/* Right-aligned elements: Language Switch & Sign In */
+.right-elements {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adjust gap between language switch and sign-in button */
+  margin-right: 15px; /* Added margin-right to shift everything slightly left */
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px; /* Reduced gap */
+  margin-right: 10px; /* Added margin to shift it closer to the Sign-In button */
+}
+
+.language-option {
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px; /* Slightly smaller font */
+}
+
+.sign-in-button {
+  background-color: #FFBF78;
+  color: #fff;
+  border: none;
+  padding: 8px 15px; /* Reduced padding */
+  border-radius: 15px; /* Reduced border-radius */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  white-space: nowrap; /* Prevents text from wrapping */
+  gap: 0.1px;
+}
+
+/* Ensure consistent spacing for the icon */
+.sign-in-button i {
+  margin-left: 5px;
+}
+
+/* Responsive Styles for smaller screens */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0 15px; /* Adjusted padding for medium screens */
+  }
+
+  .search-input {
+    width: 220px; /* Adjusted width for medium screens */
+  }
+
+  .right-elements {
+    margin-right: 10px; /* Adjusted margin for medium screens */
+  }
+
+  .sign-in-button {
+    padding: 6px 12px; /* Adjusted padding for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .search-input {
+    width: 200px; /* Adjusted width for smaller screens */
+  }
+
+  .right-elements {
+    margin-right: 5px; /* Adjusted margin for smaller screens */
+    gap: 10px; /* Adjusted gap between elements */
+  }
+
+  .sign-in-button {
+    padding: 6px 10px; /* Further adjusted padding for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 0 5px; /* Further reduced padding for very small screens */
+  }
+
+  .search-input {
+    width: 180px; /* Further reduced width for very small screens */
+  }
+
+  .right-elements {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start */
+    gap: 8px; /* Adjust gap between elements */
+  }
+
+  .sign-in-button {
+    padding: 5px 10px; /* Further adjusted padding for very small screens */
+    font-size: 12px; /* Smaller font size for very small screens */
+  }
+}

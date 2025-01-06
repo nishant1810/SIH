@@ -1,0 +1,174 @@
+{
+  "logo_primary": "Primary Logo",
+  "logo_secondary": "Secondary Logo",
+  "search_placeholder": "Enter scheme name to search...",
+  "sign_in": "Sign In",
+    "hero_title": "Empowering Your Future",
+    "hero_description": "Learn about the benefits and apply for the Government Scheme today.",
+    "cta_button_apply": "Apply Now",
+    "view_data_statistics": "View Data Statistics",
+    "apply_section_title": "How to Apply",
+    "apply_section_description": "Step-by-step instructions on how to apply for the scheme.",
+    "find_schemes_by_category": "Find Schemes Based on Categories",
+  "schemes_label": "Schemes",
+  "agriculture_rural_environment": "Agriculture, Rural & Environment",
+  "banking_financial_insurance": "Banking, Financial Services and Insurance",
+  "business_entrepreneurship": "Business & Entrepreneurship",
+  "education_learning": "Education & Learning",
+  "health_wellness": "Health & Wellness",
+  "housing_shelter": "Housing & Shelter",
+  "public_safety_law_justice": "Public Safety, Law & Justice",
+  "science_it_communications": "Science, IT & Communications",
+  "skills_employment": "Skills & Employment",
+  "social_welfare_empowerment": "Social Welfare & Empowerment",
+  "sports_culture": "Sports & Culture",
+  "transport_infrastructure": "Transport & Infrastructure",
+  "travel_tourism": "Travel & Tourism",
+  "utility_sanitation": "Utility & Sanitation",
+  "women_child": "Women and Child",
+  "population_distribution": "Population Distribution by Gender for Districts",
+  "age_distribution": "Age Distribution (2011 Census)",
+  "development": "Development",
+  "agriculture_development": "Agriculture Development",
+  "infrastructure_development": "Infrastructure Development",
+  "industrial_development": "Industrial Development",
+  "socio_economic_development": "Socio-economic Development",
+ 
+ 
+    
+  "districts": {
+    "Kasargod": "Kasargod",
+    "Kannur": "Kannur",
+    "Wayanad": "Wayanad",
+    "Kozhikode": "Kozhikode",
+    "Malappuram": "Malappuram",
+    "Palakkad": "Palakkad",
+    "Thrissur": "Thrissur",
+    "Ernakulam": "Ernakulam",
+    "Idukki": "Idukki",
+    "Kottayam": "Kottayam",
+    "Alappuzha": "Alappuzha",
+    "Pathanamthitta": "Pathanamthitta",
+    "Kollam": "Kollam",
+    "Thiruvananthapuram": "Thiruvananthapuram"
+  },
+  "legends": {
+    "males": "Males",
+    "females": "Females",
+    "0–6 years": "0–6 years",
+    "7–14 years": "7–14 years",
+    "15–59 years": "15–59 years",
+    "60 years and over": "60 years and over",
+    "districts": "Districts",
+    "area": "Area",
+    "population": "Population"
+  },
+
+  
+    "title": "Help us find the best schemes for you",
+    "steps": {
+      "step1": "Tell us about yourself, you are a...",
+      "step2": "Please select your state and area of residence",
+      "step3": "What is your current employment status?",
+      "step4": "You belong to...",
+      "step5": "Are you differently abled?"
+    },
+    "buttons": {
+      "next": "Next →",
+      "back": "← Back",
+      "reset": "Reset",
+      "submit": "Submit",
+      "ageLabel": "and your age is",
+      "years": "years"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "transgender": "Transgender"
+    },
+    "labels": {
+       "select": "Select",
+    "areas": "Areas",
+      "state": "State",
+    "statesHeading": "States"
+  },
+    "areas": {
+      "urban": "Urban",
+      "rural": "Rural"
+    },
+    "states": {
+      "andhra_pradesh": "Andhra Pradesh",
+      "arunachal_pradesh": "Arunachal Pradesh",
+      "assam": "Assam",
+      "bihar": "Bihar",
+      "chhattisgarh": "Chhattisgarh",
+      "goa": "Goa",
+      "gujarat": "Gujarat",
+      "haryana": "Haryana",
+      "himachal_pradesh": "Himachal Pradesh",
+      "jharkhand": "Jharkhand",
+      "karnataka": "Karnataka",
+      "kerala": "Kerala",
+      "madhya_pradesh": "Madhya Pradesh",
+      "maharashtra": "Maharashtra",
+      "manipur": "Manipur",
+      "meghalaya": "Meghalaya",
+      "mizoram": "Mizoram",
+      "nagaland": "Nagaland",
+      "odisha": "Odisha",
+      "punjab": "Punjab",
+      "rajasthan": "Rajasthan",
+      "sikkim": "Sikkim",
+      "tamil_nadu": "Tamil Nadu",
+      "telangana": "Telangana",
+      "tripura": "Tripura",
+      "uttar_pradesh": "Uttar Pradesh",
+      "uttarakhand": "Uttarakhand",
+      "west_bengal": "West Bengal"
+    },
+    "categories": {
+      "general": "General",
+      "obc": "Other Backward Class (OBC)",
+      "pvtg": "Particularly Vulnerable Tribal Group (PVTG)",
+      "sc": "Scheduled Caste (SC)",
+      "st": "Scheduled Tribe (ST)"
+    },
+    "employmentStatus": {
+      "employed": "Employed",
+      "unemployed": "Unemployed",
+      "selfEmployed": "Self-Employed/ Entrepreneur"
+    },  
+"differentlyAbled": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "aboutUs": {
+    "heading1": "SchemeHub : Simplifying Access to Government Welfare Programs",
+    "paragraph1": "SchemeHub is a comprehensive and intuitive digital platform created to revolutionize the way citizens access and benefit from government schemes. Our core purpose is to bridge the gap between welfare initiatives and the individuals they are designed to support. By offering an intelligent and user-friendly interface, SchemeHub allows users to effortlessly search, discover, and apply for government schemes based on their specific needs, personal circumstances, and eligibility.",
+    "paragraph2": "The government offers a wide range of welfare programs covering multiple sectors, including financial aid, healthcare, education, employment, housing, and social security. However, many citizens are unaware of the programs available to them or find it difficult to navigate the complex application processes. SchemeHub addresses this challenge by aggregating information on all relevant schemes into one cohesive platform, ensuring users no longer need to browse multiple sources to find assistance.",
+
+    "heading2": "Tailored Experience Powered by Advanced Technology",
+    "paragraph3": "SchemeHub leverages the latest advancements in artificial intelligence and data analytics to deliver a personalized experience for each user. By inputting basic demographic details such as income level, age, location, and occupation, users are presented with a curated list of schemes they are most likely to qualify for. Our algorithms analyze the vast array of government initiatives, ensuring that users receive recommendations that match their unique profile.",
+    "paragraph4": "Not only does this reduce the time and effort spent by citizens searching for relevant schemes, but it also increases the likelihood of discovering previously unknown opportunities. Our mission is to simplify the often-overwhelming scheme discovery process and transform it into an efficient and straightforward experience.",
+
+    "heading3": "Guidance Every Step of the Way",
+    "paragraph5": "At SchemeHub, we recognize that the complexity of welfare programs can deter many from applying, even when they are eligible. That’s why we don’t just stop at discovering schemes. Our platform provides comprehensive guidance at every step of the application process. Users can access clear, concise instructions on eligibility criteria, the required documentation, deadlines, and step-by-step submission processes, significantly reducing the chances of application errors and rejections.",
+    "paragraph6": "Furthermore, SchemeHub sends timely notifications and updates, ensuring users are informed of any upcoming deadlines, new schemes, or changes to existing programs. We aim to ensure that no one misses out on the benefits that can significantly enhance their quality of life.",
+
+    "heading4": "Promoting Inclusivity and Transparency",
+    "paragraph7": "SchemeHub is built on the principles of inclusivity, accessibility, and transparency. We believe that welfare programs should be easy to navigate for all citizens, regardless of their education level or technological proficiency. Our platform is designed with simplicity in mind, offering a seamless and accessible user experience for people from all walks of life. Whether you're a student seeking scholarships, a farmer looking for agricultural subsidies, or a small business owner in need of financial support, SchemeHub is designed to cater to your needs.",
+    "paragraph8": "By making government schemes more transparent, we foster trust and accountability. Users can not only discover the programs they qualify for but also track the status of their applications, understand the disbursement of funds, and access the support they need.",
+
+    "heading5": "Building a Stronger Connection Between Citizens and the Government",
+    "paragraph9": "SchemeHub doesn’t just aim to improve the user experience — it seeks to strengthen the relationship between citizens and their government. By removing barriers to information and streamlining the process of accessing welfare, we hope to empower citizens to take full advantage of the opportunities available to them. Through our platform, we promote civic engagement, ensuring that government initiatives reach those who need them most.",
+    "paragraph10": "Additionally, SchemeHub helps to minimize the socio-economic disparity by making welfare programs more inclusive, ensuring that vulnerable populations, such as low-income families, rural communities, and senior citizens, are not left behind. By making these programs more accessible, we play a role in fostering equality and improving the well-being of millions across the nation.",
+
+    "heading6": "A Vision for the Future",
+    "paragraph11": "Looking ahead, SchemeHub is committed to expanding its capabilities to ensure a better, more efficient welfare system for all. We continually update our database of schemes to reflect the latest government initiatives and policies, ensuring that our users are always informed about the most recent opportunities. Additionally, we are working on incorporating multilingual support, making the platform accessible to people from various linguistic backgrounds, and reaching the furthest corners of the country.",
+    "paragraph12": "We envision a future where no citizen is unaware or unable to benefit from the programs that are designed to support them. By enhancing the transparency, accessibility, and effectiveness of welfare schemes, SchemeHub aims to play a critical role in shaping a more inclusive and equitable society.",
+
+    "heading7": "Join Us on This Journey",
+    "paragraph13": "At SchemeHub, our purpose goes beyond simply providing information; we aim to change lives. By making government schemes more accessible and straightforward, we hope to empower citizens, close gaps in the welfare system, and create a more connected and engaged society. Join us on this journey as we continue to innovate and strive towards a future where every citizen can access the benefits they deserve, no matter who they are or where they come from."
+  }
+}
+

@@ -1,0 +1,125 @@
+body {
+  display: flex; /* Use Flexbox for centering */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  min-height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background-color:  #333; /* Set background color to black */
+}
+
+.navbar {
+  width: 100%; /* Full width for navbar */
+  position: fixed; /* Fix the navbar at the top */
+  top: 0; /* Stick to the top */
+  left: 0; /* Align to the left */
+  z-index: 1000; /* Ensure it stays above other elements */
+  background-color: #fff; /* Optional: Set a background color for contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+  padding: 10px; /* Optional: Add padding for aesthetics */
+}
+
+/* Additional styling for the navbar items */
+.navbar a {
+  color: #007bff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  margin: 0 15px; /* Space between links */
+}
+
+/* Navbar item hover effect */
+.navbar a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}
+
+.schemes-container {
+  max-width: 1080px;
+  width: 100%; /* Make container responsive */
+  margin: 60px; /* Add margin for spacing */
+  padding: 10px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px  #333;
+  margin-top: 80px; /* Space for fixed navbar */
+  margin-right:300px;
+  display:center;
+}
+
+h1 {
+  text-align: center;
+  color: #fff; /* Change color to white for contrast */
+  font-size: 1.8rem; /* Increased font size for h1 */
+}
+
+.schemes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Scheme card styles */
+.scheme-card {
+  background-color: #8d8b8b;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px  #333;
+}
+
+/* Scheme title color */
+.scheme-card h2 {
+  color: #161616;
+  font-size: 1.5rem; /* Increased font size for scheme titles */
+}
+
+/* Paragraph styles */
+.scheme-card p {
+  margin: 10px 0;
+  color: #fcf8f8;
+}
+
+/* Link styles */
+.scheme-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  color: #fff;
+  background-color: #3f4040;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Link hover effect */
+.scheme-link:hover {
+  background-color: #6969e8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .schemes-container {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Smaller font size for h1 on mobile */
+  }
+
+  .scheme-card {
+    padding: 12px; /* Adjust padding inside scheme cards */
+  }
+
+  .scheme-card h2 {
+    font-size: 1.3rem; /* Smaller font size for scheme titles */
+  }
+
+  .scheme-link {
+    padding: 6px 10px; /* Adjust padding for links */
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2rem; /* Even smaller font size for h1 on very small screens */
+  }
+
+  .scheme-card h2 {
+    font-size: 1.2rem; /* Smaller font size for scheme titles */
+  }
+}
